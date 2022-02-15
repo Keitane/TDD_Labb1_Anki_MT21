@@ -18,7 +18,7 @@ public class Employee {
         return name;
     }
 
-    public void setFirstName(String expected) {
-        name = expected;
+    public void setFirstName(String newName) {
+        name = newName;
     }
 }
