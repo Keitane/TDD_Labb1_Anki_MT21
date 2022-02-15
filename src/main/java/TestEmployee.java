@@ -82,4 +82,11 @@ public class TestEmployee {
 
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void checkSetLastNameTest() {
+        String expected = "Miko";
+
+        testObject1.setLastName(expected);
+    }
 }
