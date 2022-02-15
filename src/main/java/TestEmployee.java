@@ -32,5 +32,6 @@ public class TestEmployee {
         int expected = 1;
         int actual = testObject1.getUniqueID();
 
+        Assertions.assertEquals(expected, actual);
     }
 }
