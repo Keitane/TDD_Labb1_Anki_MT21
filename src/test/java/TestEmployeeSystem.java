@@ -40,4 +40,11 @@ public class TestEmployeeSystem {
         int actual = employeeTest.size();
 
     }
+
+    @Test
+    public void checkAddEmployeeTest() {
+        int expected = 3;
+        ArrayList<Employee> employeeTest = new ArrayList<Employee>();
+        testObjectSystem.addEmployee();
+    }
 }
