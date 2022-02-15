@@ -7,4 +7,9 @@ public class EmployeeSystem {
     public ArrayList<Employee> getEmployeeList() {
         return employees;
     }
+
+    public void addEmployee(Employee testObject1) {
+
+
+    }
 }

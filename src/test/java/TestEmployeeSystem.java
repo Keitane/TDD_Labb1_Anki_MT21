@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class TestEmployeeSystem {
     Employee testObject1;
+    Employee testObject2;
+    Employee testObject3;
+
     EmployeeSystem testObjectSystem;
 
 
@@ -45,6 +48,10 @@ public class TestEmployeeSystem {
     public void checkAddEmployeeTest() {
         int expected = 3;
         ArrayList<Employee> employeeTest = new ArrayList<Employee>();
-        testObjectSystem.addEmployee();
+
+        testObjectSystem.addEmployee(testObject1,testObject2, testObject3);
+
+        employeeTest = testObjectSystem.getEmployeeList();
+
     }
 }
