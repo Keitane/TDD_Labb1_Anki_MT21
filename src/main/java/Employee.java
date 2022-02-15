@@ -29,7 +29,7 @@ public class Employee {
 
     }
 
-    public void setLastName(String expected) {
-        lastName = expected;
+    public void setLastName(String newLastName) {
+        lastName = newLastName;
     }
 }
