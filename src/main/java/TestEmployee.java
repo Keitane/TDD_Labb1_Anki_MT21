@@ -108,5 +108,9 @@ public class TestEmployee {
         int expected = 25;
 
         testObject1.setAge(expected);
+
+        int actual = testObject1.getAge();
+
+        Assertions.assertEquals(expected, actual);
     }
 }
