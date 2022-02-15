@@ -47,11 +47,11 @@ public class TestEmployeeSystem {
     @Test
     public void checkAddEmployeeTest() {
         int expected = 3;
-        ArrayList<Employee> employeeTest = new ArrayList<Employee>();
+        ArrayList<Employee> employeesTest = new ArrayList<Employee>();
 
         testObjectSystem.addEmployee(testObject1,testObject2, testObject3);
 
-        employeeTest = testObjectSystem.getEmployeeList();
+        employeesTest = testObjectSystem.getEmployeeList();
 
     }
 }
