@@ -75,6 +75,5 @@ public class TestEmployeeSystem {
         int actual = employeesTest.size();
 
         Assertions.assertEquals(expected, actual);
-
     }
 }
