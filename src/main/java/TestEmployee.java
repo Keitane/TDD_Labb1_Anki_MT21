@@ -76,8 +76,10 @@ public class TestEmployee {
 
     @Test
     public void checkGetLastNameTest(){
-        String expected = "Miko";
+        String expected = "Phan";
 
         String actual = testObject1.getLastName();
+
+        Assertions.assertEquals(expected, actual);
     }
 }
