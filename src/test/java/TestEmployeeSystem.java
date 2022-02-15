@@ -41,7 +41,6 @@ public class TestEmployeeSystem {
         employeeTest = testObjectSystem.getEmployeeList();
 
         int actual = employeeTest.size();
-
     }
 
     @Test
@@ -58,6 +57,18 @@ public class TestEmployeeSystem {
         int actual = employeesTest.size();
 
         Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void checkRemoveEmployeeTest() {
+        int expected = 2;
+        ArrayList<Employee> employeesTest = new ArrayList<Employee>();
+
+        testObjectSystem.addEmployee(testObject1);
+        testObjectSystem.addEmployee(testObject2);
+        testObjectSystem.addEmployee(testObject3);
+
+        testObjectSystem.removeEmployee();
 
     }
 }
