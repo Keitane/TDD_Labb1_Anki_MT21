@@ -7,6 +7,7 @@ public class Employee {
     public Employee(String name, String lastName, int age, double salary) {
     counter = counter + 1;
     ID = counter;
+        this.name = name;
     }
 
     public int getUniqueID() {
