@@ -12,7 +12,7 @@ public class EmployeeSystem {
         employees.add(testObject);
     }
 
-    public void removeEmployee(Employee) {
+    public void removeEmployee(Employee testObject1) {
 
     }
 }
