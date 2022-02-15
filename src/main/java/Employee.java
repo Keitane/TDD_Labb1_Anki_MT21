@@ -28,4 +28,8 @@ public class Employee {
         return lastName;
 
     }
+
+    public void setLastName(String expected) {
+        lastName = expected;
+    }
 }
