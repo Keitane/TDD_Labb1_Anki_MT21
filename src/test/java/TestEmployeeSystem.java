@@ -25,9 +25,13 @@ public class TestEmployeeSystem {
         System.out.println("Test start!");
 
         testObject1 = new Employee("Anki", "Phan", 24, 30500.00);
+        testObjectSystem = new EmployeeSystem();
     }
 
     @Test
     public void checkGetEmployeeListTest() {
+        int expected = 3;
+
+        int actual = testObjectSystem.getEmployeeList();
     }
 }
