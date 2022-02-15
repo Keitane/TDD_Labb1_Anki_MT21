@@ -70,6 +70,8 @@ public class TestEmployeeSystem {
 
         testObjectSystem.removeEmployee(testObject1);
 
+        employeesTest = testObjectSystem.getEmployeeList();
+
         int actual = employeesTest.size();
 
         Assertions.assertEquals(expected, actual);
