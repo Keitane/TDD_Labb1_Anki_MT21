@@ -59,5 +59,7 @@ public class TestEmployee {
     public void checkGetFirstNameTest() {
         String expected = "Anki";
         String actual = testObject1.getFirstName();
+
+        Assertions.assertEquals(expected, actual);
     }
 }
