@@ -54,4 +54,10 @@ public class TestEmployee {
         Assertions.assertEquals(expected2, actual2);
         Assertions.assertEquals(expected3, actual3);
     }
+
+    @Test
+    public void checkGetFirstNameTest() {
+        String expected = "Anki";
+        String actual = testObject1.getFirstName();
+    }
 }
