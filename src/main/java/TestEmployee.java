@@ -62,4 +62,11 @@ public class TestEmployee {
 
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void checkSetFirstNameTest() {
+        String expected = "Yae";
+
+        testObject1.setFirstName(expected);
+    }
 }
