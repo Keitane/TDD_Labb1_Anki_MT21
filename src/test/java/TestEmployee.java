@@ -32,26 +32,18 @@ public class TestEmployee {
 
     }
 
-    @Test
-    public void checkGetUniqueIDTest() {
-        int expected = 1;
-        int actual = testObject1.getUniqueID();
-
-        Assertions.assertEquals(expected, actual);
-    }
 
     @Test
     public void checkGetUniqueIDTest2() {
-        int expected1 = 1;
-        int expected2 = 2;
-        int expected3 = 3;
+        int actual2 = testObject2.getUniqueID();
+
+        int expected1 = actual2 - 1;
+        int expected3 = actual2 + 1;
 
         int actual1 = testObject1.getUniqueID();
-        int actual2 = testObject2.getUniqueID();
         int actual3 = testObject3.getUniqueID();
 
         Assertions.assertEquals(expected1, actual1);
-        Assertions.assertEquals(expected2, actual2);
         Assertions.assertEquals(expected3, actual3);
     }
 
